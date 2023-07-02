@@ -1,0 +1,10 @@
+for multipage routing use : react router dom.
+
+<Route path="/movies/:type" element={<h1>movie list page</h1>}/>
+
+here "/:type" is dynamic and can take any string.
+
+inside home component : 
+useffect and fetch API.
+
+for carousel : use npm package  : react-responsive-carousel.
