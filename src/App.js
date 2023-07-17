@@ -21,9 +21,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/MyMovie" element={<Home></Home>}/>
-          <Route path="/movie/:id" element={<Movie />}/>
-          <Route path="/movies/:type" element={<MovieList />}/>   
-          <Route path="/*" element={<h1>404 NOT EXIST</h1>}/>
+          <Route path="/MyMovie/movie/:id" element={<Movie />}/>
+          <Route path="/MyMovie/movies/:type" element={<MovieList />}/>   
+          <Route path="/MyMovie/*" element={<h1>404 NOT EXIST</h1>}/>
         </Routes>
       </Router>
     </div>
