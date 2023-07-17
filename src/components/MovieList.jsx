@@ -11,7 +11,7 @@ const MovieList = () => {
 
     useEffect(() => {
         getData()
-    }, [])
+    }, [type])
 
     useEffect(() => {
         getData()
