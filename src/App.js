@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home></Home>}/>
+          <Route path="/MyMovie" element={<Home></Home>}/>
           <Route path="/movie/:id" element={<Movie />}/>
           <Route path="/movies/:type" element={<MovieList />}/>   
           <Route path="/*" element={<h1>404 NOT EXIST</h1>}/>
