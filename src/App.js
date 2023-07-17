@@ -1,12 +1,17 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
+//css
+import './App.css';
+
 
 //components :
 import Header from "./components/Header";
 import Home from "./components/Home";
+import MovieList from "./components/MovieList";
+import Movie from "./components/Movie";
 
-//css
-import './App.css';
+
+
 // import './css/Header.css';
 
 function App() {
@@ -16,8 +21,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home></Home>}/>
-          <Route path="/movie/:id" element={<h1>movie details page</h1>}/>
-          <Route path="/movies/:type" element={<h1>movie list page</h1>}/>   
+          <Route path="/movie/:id" element={<Movie />}/>
+          <Route path="/movies/:type" element={<MovieList />}/>   
           <Route path="/*" element={<h1>404 NOT EXIST</h1>}/>
         </Routes>
       </Router>

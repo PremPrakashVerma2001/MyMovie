@@ -7,4 +7,12 @@ here "/:type" is dynamic and can take any string.
 inside home component : 
 useffect and fetch API.
 
-for carousel : use npm package  : react-responsive-carousel.
+for carousel : use react npm package  : react-responsive-carousel.
+
+for loading effect : use react npm package : npm i react-loading-skeleton.
+
+inside MovieList : 
+
+have used {useParams} used to access value curr . dynamic paramete of curr. URL .
+since it is associated with the path . Hence provided by react-router-dom.
+
